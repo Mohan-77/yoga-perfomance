@@ -1,0 +1,120 @@
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.img{
+    width: 100%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.main-blog{
+    padding: 40px;
+    grid-column: 1 / span 2;
+    /* background-color: red; */
+}
+.top-bar {
+
+    padding: 5px 0;
+    border-bottom: 2px solid #222222;
+}
+
+.top-bar > .sp {
+    color: #ffffff;
+    padding: 5px 10px;
+    background-color: #222222;
+}
+.blog{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.blog-content h2{
+    font-weight: 400;
+    line-height: 29px;
+    font-size: 22px;
+    color: rgb(77, 178, 236);
+}
+.blog-date .name{
+    font-weight: 700;
+    line-height: 11px;
+    font-size: 11px;
+    color: rgb(0, 0, 0);
+    margin-right: 6px;
+}
+.blog-date .date, .hy{
+    font-weight: 400;
+    line-height: 11px;
+    font-size: 11px;
+    color: rgb(118, 118, 118);
+    margin-left: 3px;
+}
+.description{
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 13px;
+    color: rgb(118, 118, 118);
+}
+
+.sidebar{
+    padding: 40px;
+}
+.blog img{
+    width: 328px;
+    height: 164px;
+}
+
+.sidebar-widget {
+    background: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/10/newspaper-rec300d.jpg") center / cover no-repeat;
+    width: 320px;
+    height: 270px;
+}
+.button{
+    margin-top: 20px;
+    border-bottom: solid 2px #8a54c1;
+    padding: 7px 0;
+
+}
+.bt-span{
+    color: #ffffff;
+    padding: 7px 10px;
+    background-color: #8a54c1;
+}
+.blog.sd-br{
+    flex-direction: column;
+}
+.blog.sd-br img{
+    width: 100%;
+    height: auto;
+}
+.blog.sd-br .blog-date{
+    margin-block: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.blog.sd-br .blog-date .count-number{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 600;
+}
+.blog-content{
+    position: relative;
+    /* border: solid 2px red; */
+}
+.blog-content .recipe{
+    position: absolute;
+    bottom: 94px;
+    left: 0;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 5px;
+    font-family: 600;
+    cursor: pointer;
+}
